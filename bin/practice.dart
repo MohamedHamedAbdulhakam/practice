@@ -2,9 +2,9 @@ import 'package:practice/practice.dart' as practice;
 
 void main(List<String> arguments) {
   print('Hello world');
-  ;
+  
   Snake mesho = Snake();
-  mesho.
+  print(mesho.crawl());
 }
 
 class Animal {
@@ -13,7 +13,9 @@ class Animal {
 }
 
 mixin Reptiles {
-  crawl() {}
+  crawl() {
+    print('I am crowling');
+  }
 }
 
 class dog extends Animal {}
